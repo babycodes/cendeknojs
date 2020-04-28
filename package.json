@@ -5,7 +5,7 @@
   "main": "cendekno.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pendekin" : "node cendekno.js"
+    "cendekno" : "node cendekno.js"
   },
   "repository": {
     "type": "git",
