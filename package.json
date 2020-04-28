@@ -4,7 +4,8 @@
   "description": "url shortener scrapper",
   "main": "cendekno.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pendekin" : "node cendekno.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/babycodes/cendeknojs/issues"
   },
-  "homepage": "https://github.com/babycodes/cendeknojs#readme"
+  "homepage": "https://github.com/babycodes/cendeknojs#readme",
+  "dependencies": {
+    "puppeteer": "^3.0.2"
+  }
 }
