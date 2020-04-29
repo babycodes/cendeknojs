@@ -6,5 +6,5 @@ ini adalah project iseng yang digunakan untun memperpendek url dengan memanfaatk
 
 - buka terminal download project dengan cara <code>git clone https://www.github.com/babycodes/cendeknojs</code>
 - masuk ke direktori cendeknojs ketikan <code>npm install</code>
-- setelah berhasil ketikan perintah <code>npm run cendekno "url yang mau dipendekkan"</code>
+- setelah berhasil ketikan perintah <code>node cendekno "url yang mau dipendekkan"</code>
 - sampunnnnn!
