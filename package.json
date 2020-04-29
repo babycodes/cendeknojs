@@ -5,7 +5,7 @@
   "main": "cendekno.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cendekno" : "node cendekno.js"
+    "cendekno": "node cendekno.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/babycodes/cendeknojs#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "puppeteer": "^3.0.2"
   }
 }
