@@ -54,7 +54,11 @@ const clientResponseMessage = ["kae pun", "mari wes", "mpun"];
       shortenurlinput
     );
     console.log(`* ${r_crm} ${r_client} : ${shortenUrlResult} ✅ `.green);
-    console.log(`* luwih cendek kan ${r_client} tekan : ${uri} ❗ \n`.yellow);
+    shortenUrlResult.length < uri.length
+      ? console.log(
+          `* luwih cendek kan ${r_client} tekan : ${uri} ❗ \n`.yellow
+        )
+      : "";
     console.log(
       `cara gawene cukup diblok url e ${r_client} trus di dulek CRTL + SHIFT + C utawi klik kanan trus copy ${r_client} 😁`
         .brightGreen
@@ -66,7 +70,7 @@ const clientResponseMessage = ["kae pun", "mari wes", "mpun"];
       `wadoo gagal di cendek ke, niki error e : ${error.message}`.brightRed
     );
     console.log(
-      `monggo di dulek CTRL + C, kangge medal saking Commandline trus di jalan ke maleh 😁`
+      `\n monggo di dulek CTRL + C, kangge medal saking Commandline trus di jalan ke maleh 😁`
         .brightGreen
     );
   }
